@@ -3,12 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-three/drei": "^9.65.1",
+    "@react-three/fiber": "^8.12.0",
+    "@splinetool/loader": "^0.9.293",
+    "@splinetool/r3f-spline": "^1.0.2",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@types/three": "^0.150.1",
+    "bootstrap": "^5.2.3",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.7.3",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "react-three-fiber": "^6.0.13",
+    "styled-components": "^5.3.9",
+    "three": "^0.151.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
