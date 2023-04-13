@@ -8,7 +8,8 @@ import { Canvas } from '@react-three/fiber'
 import { OrbitControls } from '@react-three/drei'
 import Navvbar from './component/Navvbar'
 import './App.css'
-
+import Box from './component/Test'
+import RotatingEarth from './component/Test'
 const App = () => {
   return (
     <div className='App'>
@@ -20,12 +21,13 @@ const App = () => {
        </div>
     
       <div style={{height:'100vh',  width: "50%",  }}>
-        <Suspense fallback={null}>
+        {/* <Suspense fallback={null}>
         <Canvas shadows flat linear>
           <Scene /> 
           <OrbitControls />
         </Canvas>
-      </Suspense>
+      </Suspense> */}
+      <RotatingEarth/>
       </div>
 
     </div>
